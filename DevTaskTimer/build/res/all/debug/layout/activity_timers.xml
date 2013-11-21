@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:id="@+id/timeTableBody">
+
+        <!--
+             <TableRow
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="right"
+
+
+
+                  <AbsoluteChronometer
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/cron"
+                      android:textSize="12pt"
+                      android:textAlignment="center"
+                      />
+
+                  <Button
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/startBtnTxt"
+                      android:id="@+id/startBtn"
+                      android:onClick="onStartClick"
+                      style="?android:attr/buttonStyleSmall"
+                      />
+
+                  <Button
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/stopBtnTxt"
+                      android:id="@+id/stopBtn"
+                      android:onClick="onStopClick"
+                      style="?android:attr/buttonStyleSmall"
+                      />
+
+                  <Button
+                      style="?android:attr/buttonStyleSmall"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/resetBtnText"
+                      android:id="@+id/resetBtn"
+                      android:onClick="onResetClick"/>
+
+              </TableRow>
+
+              <TableRow
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="left"
+                  >
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/timerName"
+                      android:textSize="12pt"
+                      android:text="Stuff"/>
+
+              </TableRow>
+      -->
+    </TableLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/newBtnText"
+        android:id="@+id/newBtn"
+        android:layout_gravity="center_horizontal|bottom"
+        android:onClick="onNewTimerClick"
+        />
+
+</LinearLayout><!-- From: file:/C:/Users/greg/AndroidStudioProjects/DevTaskTimerProject/DevTaskTimer/src/main/res/layout/activity_timers.xml -->

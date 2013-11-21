@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DevTaskTimer</string>
+    <string name="timing_notification">Task timers are currently running...</string>
+    <string name="deleteBtnText">X</string>
+    <string name="resetBtnText">O</string>
+    <string name="startBtnText">&gt;</string>
+    <string name="stopBtnText">[]</string>
+    <string name="newBtnText">New</string>
+    <string name="editTimerNameBox">Awesome Timer Name</string>
+    <string name="editTimerNameLbl">Timer Name:</string>
+    <string name="editTimerTimeLbl">Timer Value:</string>
+    <string name="okBtnText">OK</string>
+    <string name="cancelBtnText">Cancel</string>
+    <string name="title_activity_edit_timer">"Edit Timer "</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
